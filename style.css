@@ -1,1 +1,128 @@
+@font-face {
+    font-family: 'Somelist';
+    src: url('fonts/Somelist.ttf') format('truetype');
+}
+body {
+    background-color: #fff0e1;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: rgb(44, 167, 255);
+}
 
+#home h1 {
+    margin: 0;
+    margin-top: 260px;
+    font-family: 'Somelist', sans-serif;
+    font-size: 150px;
+}
+
+#home {
+    gap: 5px;
+}
+
+#name {
+   margin: 0;
+   font-size: 30px;
+   color: black;
+
+}
+
+.container {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+}
+nav {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+nav a {
+    gap: 10px;
+    margin: 5px;
+    padding: 20px 20px;
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#intro {
+   margin: 0;
+   font-size: 18px;
+   color: black;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+#about {
+    min-height: 100vh;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+#about h2 {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+#intro {
+    text-align: left;
+    max-width: 550px;
+    font-size: 20px;
+}
+
+.picture {
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+#theme-btn {
+  position: fixed;
+  top: 15px;
+  left: 15px;
+
+  padding: 10px 15px;
+  border: none;
+  border-radius: 20px;
+
+  background-color: #95c8ff;
+  color: white;
+  cursor: pointer;
+
+}
+
+.dark-mode {
+  background-color: #333333;
+  color: rgb(65, 176, 255);
+}
+.project-card {
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 500px;
+
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.project-card a {
+  text-decoration: none;
+  color: #2ca7ff;
+  font-weight: bold;
+}
